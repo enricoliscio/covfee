@@ -67,18 +67,18 @@ export class ThreeImagesTask extends CovfeeTask<Props, State> {
                 <Col span={24}>
                     <div style={{display: 'flex'}}>
                         <div className='bubble-cloud'>
-                            <div>Domain</div>
-                            <img src={urlReplacer(this.props.spec.images[0])} />
-                        </div>
-                        <div className='bubble-cloud'>
-                            <div>Domain</div>
-                            <img src={urlReplacer(this.props.spec.images[1])} />
+                            <div>Domain A</div>
+                            <img src={urlReplacer(this.props.spec.images[0])} style={{margin: '0 auto'}} />
                         </div>
                     </div>
                     <div style={{display: 'flex'}}>
                         <div className='bubble-cloud'>
-                            <div>Domain</div>
-                            <img src={urlReplacer(this.props.spec.images[2])}  style={{margin: '0 auto'}}/>
+                            <div>Domain B</div>
+                            <img src={urlReplacer(this.props.spec.images[1])} />
+                        </div>
+                        <div className='bubble-cloud'>
+                            <div>Domain C</div>
+                            <img src={urlReplacer(this.props.spec.images[2])} />
                         </div>
                     </div>
                 </Col>

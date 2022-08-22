@@ -2,8 +2,9 @@
     "name": "Example project",
     "id": "sample_project",
     "email": "example@example.com",
-    "hits": [{
-        "id": "sample_hit",
+    "hits": [
+    {
+        "id": "sample_hit_1",
         "name": "Sample Questionnaire",
         "interface": {
             "type": "timeline"
@@ -20,7 +21,7 @@
             {
                 "name": "Example 1",
                 "type": "ThreeImagesTask",
-                "text": "sdfl;ks lkfsdj lk;fjsd jfksjdkfjs;dlk flk;sdj fdksld flkd",
+                "text": "text1",
                 "images": [
                     "$$www$$/a.png",
                     "$$www$$/b.png",
@@ -47,7 +48,118 @@
                         }
                     }]
                 }
+            },
+            {
+                "name": "Example 2",
+                "type": "ThreeImagesTask",
+                "text": "text2",
+                "images": [
+                    "$$www$$/c.png",
+                    "$$www$$/c.png",
+                    "$$www$$/c.png"
+                ],
+                "form": {
+                    "fields": [{
+                        "name": "laughter",
+                        "label": "Based on the words in the word bubbles ...",
+                        "input": {
+                            "inputType": "Radio.Group",
+                            "optionType": "button",
+                            "buttonStyle": "solid",
+                            "size": "small",
+                            "options": [
+                              {"value": "0", "label": "A is clearly more similar to B (than to C)"},
+                              {"value": "1", "label": "A is clearly more similar to B (than to C)"},
+                              {"value": "2", "label": "A is clearly more similar to B (than to C)"},
+                              {"value": "3", "label": "A is clearly more similar to B (than to C)"},
+                              {"value": "4", "label": "A is clearly more similar to B (than to C)"},
+                              {"value": "5", "label": "A is clearly more similar to B (than to C)"},
+                              {"value": "6", "label": "A is clearly more similar to B (than to C)"}
+                            ]
+                        }
+                    }]
+                }
             }
         ]
-    }]
+    },
+    {
+        "id": "sample_hit_2",
+        "name": "Sample Questionnaire 2",
+        "interface": {
+            "type": "timeline"
+        },
+        "tasks": [
+            {
+                "name": "Instructions",
+                "type": "InstructionsTask",
+                "content": {
+                    "type": "link",
+                    "url": "$$www$$/instructions.md"
+                }
+            },
+            {
+                "name": "Example A",
+                "type": "ThreeImagesTask",
+                "text": "text A",
+                "images": [
+                    "$$www$$/a.png",
+                    "$$www$$/b.png",
+                    "$$www$$/c.png"
+                ],
+                "form": {
+                    "fields": [{
+                        "name": "laughter",
+                        "label": "Based on the words in the word bubbles ...",
+                        "input": {
+                            "inputType": "Radio.Group",
+                            "optionType": "button",
+                            "buttonStyle": "solid",
+                            "size": "small",
+                            "options": [
+                              {"value": "0", "label": "A is clearly more similar to B (than to C)"},
+                              {"value": "1", "label": "A is clearly more similar to B (than to C)"},
+                              {"value": "2", "label": "A is clearly more similar to B (than to C)"},
+                              {"value": "3", "label": "A is clearly more similar to B (than to C)"},
+                              {"value": "4", "label": "A is clearly more similar to B (than to C)"},
+                              {"value": "5", "label": "A is clearly more similar to B (than to C)"},
+                              {"value": "6", "label": "A is clearly more similar to B (than to C)"}
+                            ]
+                        }
+                    }]
+                }
+            },
+            {
+                "name": "Example B",
+                "type": "ThreeImagesTask",
+                "text": "text B",
+                "images": [
+                    "$$www$$/c.png",
+                    "$$www$$/c.png",
+                    "$$www$$/c.png"
+                ],
+                "form": {
+                    "fields": [{
+                        "name": "laughter",
+                        "label": "Based on the words in the word bubbles ...",
+                        "input": {
+                            "inputType": "Radio.Group",
+                            "optionType": "button",
+                            "buttonStyle": "solid",
+                            "size": "small",
+                            "options": [
+                              {"value": "0", "label": "A is clearly more similar to B (than to C)"},
+                              {"value": "1", "label": "A is clearly more similar to B (than to C)"},
+                              {"value": "2", "label": "A is clearly more similar to B (than to C)"},
+                              {"value": "3", "label": "A is clearly more similar to B (than to C)"},
+                              {"value": "4", "label": "A is clearly more similar to B (than to C)"},
+                              {"value": "5", "label": "A is clearly more similar to B (than to C)"},
+                              {"value": "6", "label": "A is clearly more similar to B (than to C)"}
+                            ]
+                        }
+                    }]
+                }
+            }
+        ]
+    }
+    ]
 }

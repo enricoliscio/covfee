@@ -3,6 +3,7 @@
 covfee.egg-info
 build
 dist
+.covfee-env
 
 #js
 node_modules

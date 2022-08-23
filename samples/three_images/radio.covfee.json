@@ -1,21 +1,29 @@
 {
-    "name": "Example project",
-    "id": "sample_project",
-    "email": "example@example.com",
+    "name": "Enrico Liscio",
+    "id": "Value lexicon",
+    "email": "e.liscio@tudelft.nl",
     "hits": [
     {
-        "id": "sample_hit_1",
-        "name": "Sample Questionnaire",
+        "id": "hit_1",
+        "name": "HIT 1",
         "interface": {
             "type": "timeline"
         },
         "tasks": [
             {
-                "name": "Instructions",
+                "name": "Instructions Word Bubbles",
                 "type": "InstructionsTask",
                 "content": {
                     "type": "link",
-                    "url": "$$www$$/instructions.md"
+                    "url": "$$www$$/instructions/instructions_word_bubbles.md"
+                }
+            },
+            {
+                "name": "Instructions Morality",
+                "type": "InstructionsTask",
+                "content": {
+                    "type": "link",
+                    "url": "$$www$$/instructions/instructions_morality.md"
                 }
             },
             {
@@ -84,17 +92,25 @@
     },
     {
         "id": "sample_hit_2",
-        "name": "Sample Questionnaire 2",
+        "name": "HIT 2",
         "interface": {
             "type": "timeline"
         },
         "tasks": [
             {
-                "name": "Instructions",
+                "name": "Instructions Word Bubbles",
                 "type": "InstructionsTask",
                 "content": {
                     "type": "link",
-                    "url": "$$www$$/instructions.md"
+                    "url": "$$www$$/instructions/instructions_word_bubbles.md"
+                }
+            },
+            {
+                "name": "Instructions Morality",
+                "type": "InstructionsTask",
+                "content": {
+                    "type": "link",
+                    "url": "$$www$$/instructions/instructions_morality.md"
                 }
             },
             {

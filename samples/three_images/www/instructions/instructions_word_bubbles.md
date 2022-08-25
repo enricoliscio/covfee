@@ -6,6 +6,8 @@ For example, below you can see a word bubble describing Italian cuisine.
 
 ![italian cuisine word bubble]($$www$$/instructions/italian_cuisine.png)
 
+### Is A more similar to B or C?
+
 In this experiment, we ask you to compare word bubbles. That is, we ask you to indicate how similar
 the concepts represented in different word bubbles are. For example, we would show you the three
 word bubbles below, that describe Italian cuisine (Concept A), Greek cuisine (Concept B), and

@@ -12,10 +12,11 @@
 .bubble-cloud {
     text-align: center;
     flex: 1;
+    font-size: 20px;
 }
 
 .bubble-cloud > img {
     width: 100%;
-    max-width: 240px;
+    max-width: 500px;
     margin: 0 auto;
 }

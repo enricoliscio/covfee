@@ -1,12 +1,14 @@
-## Word Bubbles
+# Word Bubbles
 
 In this task we use _word bubbles_. A word bubble is a collection of words used to describe a concept --
 the larger the size of the bubble, the more important the word is for the described concept.
 For example, below you can see a word bubble describing Italian cuisine.
 
-![italian cuisine word bubble]($$www$$/instructions/italian_cuisine.png)
+<p float="left" margin-left=200px >
+  <img src="$$www$$/instructions/italian_cuisine.png" width="350" />
+</p>
 
-### Is A more similar to B or C?
+## Is A more similar to B or C?
 
 In this experiment, we ask you to compare word bubbles. That is, we ask you to indicate how similar
 the concepts represented in different word bubbles are. For example, we would show you the three
@@ -15,7 +17,7 @@ the sport of baseball (Concept C). We would then ask you to indicate whether, ba
 word bubbles, Concept A is more similar to Concept B or to Concept C.
 
 <p float="left" margin-left=200px >
-  <img src="$$www$$/instructions/italian_cuisine.png" width="350" />
+  <img src="$$www$$/instructions/italian_cuisine_with_title.png" width="350" />
 </p>
 
 <p float="left">
@@ -48,7 +50,7 @@ Based on the example above, we can judge that Concept A, representing Italian cu
 In this example, we told you what the concepts represent. However, in the follow-up task we will not make explicit what the compared concepts are; we will refer to them only as concepts A, B, and C. Furthermore, the distinction among the word bubble plots may not be as straightforward as it is in the example. So, you must read the word bubbles carefully and exercise your judgement. Below, you can find another example.
 
 <p float="left" margin-left=200px >
-  <img src="$$www$$/instructions/italian_cuisine.png" width="350" />
+  <img src="$$www$$/instructions/italian_cuisine_with_title.png" width="350" />
 </p>
 
 <p float="left">

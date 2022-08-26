@@ -58,19 +58,16 @@ class Schemata:
         except:
             pass
 
-        
-
-        
-
     def make(self):
         try:
             os.remove(app.config["SCHEMATA_PATH"])
         except OSError:
             pass
+        
         # make the typescript into json schemata
         with working_directory(app.config['COVFEE_SHARED_PATH']):
             tsconfig_path = os.path.join(app.config['COVFEE_SHARED_PATH'], 'tsconfig.json')
-            cmd = f'npx typescript-json-schema {tsconfig_path} "MyProjectSpec" --titles --ignoreErrors --required -o {app.config["SCHEMATA_PATH"]}'
+            cmd = f'npx -y typescript-json-schema {tsconfig_path} "MyProjectSpec" --titles --ignoreErrors --required -o {app.config["SCHEMATA_PATH"]}'
             os.system(cmd)
 
         # process the schemata for validation

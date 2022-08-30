@@ -16,8 +16,8 @@ In this experiment, you should compare word bubble plots and indicate how simila
 </p>
 
 <p float="left">
-  <img src="$$www$$/word_bubbles/instructions/greek_cuisine.png" width="350" />
-  <img src="$$www$$/word_bubbles/instructions/baseball.png" width="350" />
+  <img src="$$www$$/word_bubbles/instructions/greek_cuisine.png"  width="350" />
+  <img src="$$www$$/word_bubbles/instructions/indian_cuisine.png" width="350" />
 </p>
 
 <style type="text/css">
@@ -28,8 +28,8 @@ In this experiment, you should compare word bubble plots and indicate how simila
 <table class="tg">
 <thead>
   <tr>
-    <td><strong>A is clearly more similar to B<br>(than to C)</strong></td>
-    <td>A is more similar to B (than to C)</td>
+    <td>A is clearly more similar to B<br>(than to C)</td>
+    <td><strong>A is more similar to B (than to C)</strong></td>
     <td>A is slightly more similar to B<br>(than to C)</td>
     <td>A is slightly more similar to C<br>(than to B)</td>
     <td>A is more similar to C (than to B)</td>
@@ -38,7 +38,7 @@ In this experiment, you should compare word bubble plots and indicate how simila
 </thead>
 </table>
 
-Based on the example above, we can judge that Concept A, representing Italian cuisine, is clearly more similar to Concept B, representing Greek cuisine, than to Concept C, representing baseball.
+Based on the example above, we can judge that Concept A, representing Italian cuisine, is more similar to Concept B, representing Greek cuisine, than to Concept C, representing Indian cuisine.
 
 In this example, we told you what the concepts represent. However, in the follow-up task we will not make explicit what the compared concepts are; we will refer to them only as concepts A, B, and C. Furthermore, the distinction among the word bubble plots may not be as straightforward as it is in the example above. So, you must read the word bubbles carefully and exercise your judgement. Below, you can find another example.
 
@@ -47,7 +47,7 @@ In this example, we told you what the concepts represent. However, in the follow
 </p>
 
 <p float="left">
-  <img src="$$www$$/word_bubbles/instructions/greek_cuisine.png" width="350" />
+  <img src="$$www$$/word_bubbles/instructions/greek_cuisine.png"         width="350" />
   <img src="$$www$$/word_bubbles/instructions/mediterranean_cuisine.png" width="350" />
 </p>
 

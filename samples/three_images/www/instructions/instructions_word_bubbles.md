@@ -3,7 +3,7 @@
 In this task we use _word bubble_ plots. A word bubble plot is a collection of words used to describe a concept – the larger the size of the bubble, the more important the word is for the described concept. For example, below you can see a word bubble plot describing Italian cuisine.
 
 <p style="text-align:center;">
-  <img src="$$www$$/word_bubbles/instructions/italian_cuisine.png" class="center" width="400" >
+  <img src="$$www$$/word_bubbles/instructions/italian_cuisine.png" class="center" width="60%" >
 </p>
 
 
@@ -12,12 +12,7 @@ In this task we use _word bubble_ plots. A word bubble plot is a collection of w
 In this experiment, you should compare word bubble plots and indicate how similar the concepts represented in different plots are. For example, given three plots representing Concepts A, B, and C, indicate whether Concept A is more similar to Concept B or to Concept C.
 
 <p style="text-align:center;">
-  <img src="$$www$$/word_bubbles/instructions/italian_cuisine_with_title.png" class="center" width="350" >
-</p>
-
-<p float="left">
-  <img src="$$www$$/word_bubbles/instructions/greek_cuisine.png"  width="350" />
-  <img src="$$www$$/word_bubbles/instructions/indian_cuisine.png" width="350" />
+  <img src="$$www$$/word_bubbles/instructions/comparison_1.png" class="center" width="100%" />
 </p>
 
 <style type="text/css">
@@ -43,12 +38,7 @@ Based on the example above, we can judge that Concept A, representing Italian cu
 In this example, we told you what the concepts represent. However, in the follow-up task we will not make explicit what the compared concepts are; we will refer to them only as concepts A, B, and C. Furthermore, the distinction among the word bubble plots may not be as straightforward as it is in the example above. So, you must read the word bubbles carefully and exercise your judgement. Below, you can find another example.
 
 <p style="text-align:center;">
-  <img src="$$www$$/word_bubbles/instructions/italian_cuisine_with_title.png" class="center" width="350" >
-</p>
-
-<p float="left">
-  <img src="$$www$$/word_bubbles/instructions/greek_cuisine.png"         width="350" />
-  <img src="$$www$$/word_bubbles/instructions/mediterranean_cuisine.png" width="350" />
+  <img src="$$www$$/word_bubbles/instructions/comparison_2.png" class="center" width="100%" />
 </p>
 
 <table class="tg">

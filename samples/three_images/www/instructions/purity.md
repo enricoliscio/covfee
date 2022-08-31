@@ -1,4 +1,4 @@
-# Purity
+## Purity
 
 In the following 6 questions, we will present you word bubbles that describe the moral concept of ***purity***.
 

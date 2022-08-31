@@ -13,4 +13,6 @@ After you completed the survey you will be rewarded as stated on Prolific. As wi
 
 Your participation in this study is entirely voluntary and **you can withdraw at any time**. You are free to omit any questions. You can end your participation by closing the browser window. If you want to withdraw your participation after completing a session, please contact Enrico Liscio (see email information above). It is only possible to withdraw up to one week after the end of participation. it is not possible to withdraw after the publication of the data.
 
+If you have performed a version of this study in the past and perform it again, you will not be paid.
+
 For questions, concerns, or complaints, please contact Enrico Liscio (see email information above). If you wish to participate in this study, please click the button below. You will then be directed to the first session. Otherwise, please close the browser window.

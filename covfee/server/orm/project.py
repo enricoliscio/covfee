@@ -96,4 +96,4 @@ class Project(db.Model):
             for instance in hit.instances:
                 if submitted_only and not instance.submitted:
                     continue
-                yield from instance.stream_download(z, os.path.join(base_path, instance.id.hex()), csv=csv)
+                yield from instance.stream_download(z, os.path.join(base_path, instance.name), csv=csv)
